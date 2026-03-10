@@ -6,4 +6,4 @@ J1	1	5mm pitch 4 position screw terminal block				TerminalBlock:TerminalBlock_Ma
 K2	1	G6E-134P-US				Relay_THT:Relay_SPDT_Omron_G6E	https://www.omron.com/ecb/products/pdf/en-g6e.pdf
 Q1	1	2N3904				Package_TO_SOT_THT:TO-92_Inline	https://www.onsemi.com/pub/Collateral/2N3903-D.PDF
 R1,R2,R3	3	10k				Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder	~
-U2	1	MIC2920A-12WS-TR_SOT223				Package_TO_SOT_SMD:SOT-223-3_TabPin2	https://ww1.microchip.com/downloads/en/DeviceDoc/mic2920.pdf
+U2	1	LT1129-5.0_SOT223				Package_TO_SOT_SMD:SOT-223-3_TabPin2	https://ww1.microchip.com/downloads/en/DeviceDoc/mic2920.pdf
