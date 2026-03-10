@@ -1,0 +1,9 @@
+Reference	Qty	Value	DNP	Exclude from BOM	Exclude from Board	Footprint	Datasheet
+A1	1	Arduino_Nano_Every				Module:Arduino_Nano	https://content.arduino.cc/assets/NANOEveryV3.0_sch.pdf
+C1,C2	2	10μF				Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder	~
+D1	1	4.7v-5.1v zener diode				Diode_SMD:D_SOD-123	http://diotec.com/tl_files/diotec/files/pdf/datasheets/zpd1
+J1	1	5mm pitch 4 position screw terminal block				TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-04P_1x04_P5.00mm	https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1080/1935187.pdf
+K2	1	G6E-134P-US				Relay_THT:Relay_SPDT_Omron_G6E	https://www.omron.com/ecb/products/pdf/en-g6e.pdf
+Q1	1	2N3904				Package_TO_SOT_THT:TO-92_Inline	https://www.onsemi.com/pub/Collateral/2N3903-D.PDF
+R1,R2,R3	3	10k				Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder	~
+U2	1	MIC2920A-12WS-TR_SOT223				Package_TO_SOT_SMD:SOT-223-3_TabPin2	https://ww1.microchip.com/downloads/en/DeviceDoc/mic2920.pdf
