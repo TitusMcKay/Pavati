@@ -3946,7 +3946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Unpolarized capacitor, rated for 40v"
 			(at 133.35 30.48 0)
 			(effects
 				(font
@@ -4280,7 +4280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Unpolarized capacitor, rated for 40v"
 			(at 101.6 30.48 0)
 			(effects
 				(font
