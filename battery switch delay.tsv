@@ -1,6 +1,6 @@
 Reference	Qty	Value	DNP	Exclude from BOM	Exclude from Board	Footprint	Datasheet	Description
 A1	1	Arduino_Nano_Every				Module:Arduino_Nano	https://content.arduino.cc/assets/NANOEveryV3.0_sch.pdf	Arduino Nano Every
-C1,C2	2	10μF				Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder	~	Unpolarized capacitor
+C1,C2	2	10μF				Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder	~	Unpolarized capacitor, rated for 40v
 D1	1	4.7v-5.1v zener diode				Diode_SMD:D_SOD-123	http://diotec.com/tl_files/diotec/files/pdf/datasheets/zpd1	500mW Zener Diode, DO-35
 J1	1	5mm pitch 4 position screw terminal block				TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-04P_1x04_P5.00mm	https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1080/1935187.pdf	Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)
 K2	1	G6E-134P-US				Relay_THT:Relay_SPDT_Omron_G6E	https://www.omron.com/ecb/products/pdf/en-g6e.pdf	Omron Subminiature Sensitive SPDT Signal Switching Relay, Single-Side Stable
