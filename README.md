@@ -8,8 +8,8 @@ The 3d models will be done in FreeCAD
 
 
 # How To Source Components
-to select components for procurment see [procurment.md](./procurment.md)
+To select components for procurment see [procurment.md](./procurment.md)
 
-there is a [bom](https://en.wikipedia.org/wiki/Bill_of_materials) in [battery switch delay.tsv](./battery%20switch%20delay.tsv) that can be used to place manufatuer part numbers on the procurment list 
+There is a [bom](https://en.wikipedia.org/wiki/Bill_of_materials) in [battery switch delay.tsv](./battery%20switch%20delay.tsv) that can be used to place manufatuer part numbers on the procurment list 
 
 
