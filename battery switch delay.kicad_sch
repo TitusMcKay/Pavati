@@ -2374,16 +2374,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 121.92) (xy 17.78 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25cc867e-e3b5-4580-8fb6-cd8fc3457cca")
-	)
-	(wire
-		(pts
 			(xy 73.66 35.56) (xy 80.01 35.56)
 		)
 		(stroke
@@ -2424,16 +2414,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 55.88) (xy 35.56 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3846bf12-946d-4e50-8662-bf3ed81fb336")
-	)
-	(wire
-		(pts
 			(xy 57.15 30.48) (xy 72.39 30.48)
 		)
 		(stroke
@@ -2454,7 +2434,7 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 66.04) (xy 38.1 66.04)
+			(xy 17.78 66.04) (xy 38.1 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2564,16 +2544,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 55.88) (xy 38.1 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c21a78b-c76d-45bf-8701-d0d27d48d1c8")
-	)
-	(wire
-		(pts
 			(xy 96.52 21.59) (xy 96.52 35.56)
 		)
 		(stroke
@@ -2614,7 +2584,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 53.34) (xy 35.56 53.34)
+			(xy 22.86 55.88) (xy 38.1 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2631,16 +2601,6 @@
 			(type default)
 		)
 		(uuid "a0a5dbb4-14dc-4b72-be4f-e695a786701e")
-	)
-	(wire
-		(pts
-			(xy 16.51 123.19) (xy 17.78 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a370b512-35e2-4fab-9c18-95fd6935ea6a")
 	)
 	(wire
 		(pts
@@ -2734,17 +2694,17 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 121.92) (xy 17.78 123.19)
+			(xy 22.86 55.88) (xy 22.86 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e6e27fdf-fd21-449e-9aa7-c23b072e97bd")
+		(uuid "e558ca61-d99a-49b4-9322-3faeeeaab413")
 	)
 	(wire
 		(pts
-			(xy 16.51 66.04) (xy 16.51 123.19)
+			(xy 17.78 66.04) (xy 17.78 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3408,16 +3368,15 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 22.86 121.92 0)
+		(at 17.78 82.55 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "54eaf430-08de-495e-ac6c-93a67595ac5c")
 		(property "Reference" "#PWR09"
-			(at 22.86 125.73 0)
+			(at 17.78 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3426,7 +3385,7 @@
 			)
 		)
 		(property "Value" "to switch"
-			(at 22.86 116.84 0)
+			(at 17.78 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3434,7 +3393,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 121.92 0)
+			(at 17.78 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3443,7 +3402,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 121.92 0)
+			(at 17.78 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3452,7 +3411,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 22.86 121.92 0)
+			(at 17.78 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
