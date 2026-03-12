@@ -12,28 +12,28 @@ C1,C2
   + part
   - part
   
-# Diodes
+## Diodes
 
 D1
   - part
   - part
   - part
 
-# Relay
+## Relay
 K2
  - part
  
-# Terminal Block
+## Terminal Block
 J1
  - part
 
  
-# Transistor
+## Transistor
 
 Q1
   - part
   
-# Resistors
+## Resistors
 
 R1,R2,R3
   
@@ -42,7 +42,7 @@ R1,R2,R3
   - part
   - part
   
-# Voltage Regulator
+## Voltage Regulator
 
 U2
   - part
