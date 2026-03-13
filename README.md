@@ -20,3 +20,6 @@ To view on your machine clone the repo and open the project in KiCad
 
 ## 3D
 open the design files in FreeCAD or open .step files in your 3d printer slicer or FreeCAD
+
+
+<a href="https://example.com" target="_blank" rel="noopener noreferrer">my site</a>
