@@ -20,7 +20,7 @@ D1
 
 ## Relay
 K2
- - Omron Electronics Inc-EMC Div G6E-134P-US DC12
+ - Omron Electronics Inc-EMC Div G6E-134P-US DC12  # if searching on digikey it might show an option for power relays or signal relays, choose signal relays
  
 ## Terminal Block
 J1
