@@ -14,9 +14,9 @@ C1,C2
 ## Diodes
 
 D1
-  - part
-  - part
-  - part
+  - Diodes Incorporated MMSZ5231B-7-F
+  - Diodes Incorporated BZT52C4V7-13-F
+  - Panjit International Inc. BZT52-C5V1_R1_00001
 
 ## Relay
 K2
