@@ -20,11 +20,13 @@ D1
 
 ## Relay
 K2
- - part
+ - Omron Electronics Inc-EMC Div G6E-134P-US DC12
  
 ## Terminal Block
 J1
- - part
+ - Phoenix Contact 1935187
+ - Phoenix Contact 1935792
+ - Same Sky (Formerly CUI Devices) TB0010-500-04GR
 
  
 ## Transistor
