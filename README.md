@@ -12,4 +12,11 @@ To select components for procurment see [procurment.md](./procurment.md)
 
 There is a [bom](https://en.wikipedia.org/wiki/Bill_of_materials) in [battery switch delay.tsv](./battery%20switch%20delay.tsv) that can be used to place manufatuer part numbers on the procurment list 
 
+# How to view
+## PCB
+To view in the web go [here](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FTitusMcKay%2FPavati%2Ftree%2Fmaster)
 
+To view on your machine clone the repo and open the project in KiCad
+
+## 3D
+open the design files in FreeCAD or open .step files in your 3d printer slicer or FreeCAD
