@@ -14,7 +14,7 @@ There is a [bom](https://en.wikipedia.org/wiki/Bill_of_materials) in [battery sw
 
 # How to view
 ## PCB
-To view in the web go [here](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FTitusMcKay%2FPavati%2Ftree%2Fmaster)
+To view in the web go   <a href="https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FTitusMcKay%2FPavati%2Ftree%2Fmaster" target="_blank" rel="noopener noreferrer">here</a> [here](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FTitusMcKay%2FPavati%2Ftree%2Fmaster)
 
 To view on your machine clone the repo and open the project in KiCad
 
