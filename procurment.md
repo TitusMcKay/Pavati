@@ -7,10 +7,9 @@ Use this list to add parts to an order from a market place like DigiKey or Mouse
 ## Capacitors
 
 C1,C2
-  * part
-  - part
-  + part
-  - part
+  - Murata Electronics GRM21BR61H106KE43L
+  - Samsung Electro-Mechanics CL21A106KBYQNNE
+  - TDK Corporation C2012X5R1H106K125AC
   
 ## Diodes
 
