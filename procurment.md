@@ -33,7 +33,9 @@ J1
 ## Transistor
 
 Q1
-  - part
+  - MCC (Micro Commercial Components) BC817-40-TPMSCT-ND
+  - onsemi BC846BLT1GOSCT-ND
+  - Nexperia USA Inc. 1727-4312-1-ND
   
 ## Resistors
 
