@@ -48,4 +48,4 @@ R1,R2,R3
 
 U2
   - Microchip Technology MIC2920A-12WS-CT-ND
-  - Texas Instruments 296-46112-1-ND
+<!--  - Texas Instruments 296-46112-1-ND -->
