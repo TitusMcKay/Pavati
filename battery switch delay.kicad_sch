@@ -2425,7 +2425,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 66.04) (xy 38.1 66.04)
+			(xy 20.32 66.04) (xy 38.1 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2695,7 +2695,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 66.04) (xy 17.78 82.55)
+			(xy 20.32 66.04) (xy 20.32 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3196,7 +3196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "500mW Zener Diode, DO-35"
+		(property "Description" "Zener Diode"
 			(at 90.17 88.9 0)
 			(effects
 				(font
@@ -3359,7 +3359,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 17.78 82.55 180)
+		(at 20.32 69.85 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3367,7 +3367,7 @@
 		(dnp no)
 		(uuid "54eaf430-08de-495e-ac6c-93a67595ac5c")
 		(property "Reference" "#PWR09"
-			(at 17.78 78.74 0)
+			(at 20.32 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3376,7 +3376,7 @@
 			)
 		)
 		(property "Value" "to switch"
-			(at 17.78 87.63 0)
+			(at 20.32 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3384,7 +3384,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 17.78 82.55 0)
+			(at 20.32 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3393,7 +3393,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 82.55 0)
+			(at 20.32 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3402,7 +3402,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 17.78 82.55 0)
+			(at 20.32 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
