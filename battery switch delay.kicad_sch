@@ -2302,7 +2302,7 @@
 		(uuid "2da2b614-8c07-4173-9571-04f119532ad5")
 	)
 	(junction
-		(at 133.35 35.56)
+		(at 144.78 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6bbf60a5-9b36-4d8f-99c4-0dace8428cb0")
@@ -2315,7 +2315,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 35.56) (xy 135.89 35.56)
+			(xy 144.78 35.56) (xy 147.32 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2385,7 +2385,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 25.4) (xy 133.35 26.67)
+			(xy 144.78 25.4) (xy 144.78 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2455,7 +2455,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 85.09) (xy 125.73 85.09)
+			(xy 90.17 85.09) (xy 137.16 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2465,7 +2465,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 97.79) (xy 125.73 97.79)
+			(xy 102.87 97.79) (xy 137.16 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2485,7 +2485,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 123.19) (xy 138.43 125.73)
+			(xy 149.86 123.19) (xy 149.86 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2495,7 +2495,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 43.18) (xy 120.65 50.8)
+			(xy 125.73 43.18) (xy 125.73 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2545,7 +2545,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 35.56) (xy 101.6 35.56)
+			(xy 118.11 35.56) (xy 101.6 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2625,7 +2625,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 35.56) (xy 133.35 35.56)
+			(xy 133.35 35.56) (xy 144.78 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2705,7 +2705,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 34.29) (xy 133.35 35.56)
+			(xy 144.78 34.29) (xy 144.78 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2715,7 +2715,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 35.56) (xy 135.89 72.39)
+			(xy 147.32 35.56) (xy 147.32 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3287,7 +3287,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:LT1129-5.0_SOT223")
-		(at 120.65 35.56 0)
+		(at 125.73 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3296,7 +3296,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a7ec511-f831-4474-99e7-9b00a2813616")
 		(property "Reference" "U2"
-			(at 120.65 29.21 0)
+			(at 125.73 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3304,7 +3304,7 @@
 			)
 		)
 		(property "Value" "MIC2920A-12WS-TR_SOT223"
-			(at 120.65 31.75 0)
+			(at 125.73 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3312,7 +3312,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 120.65 29.845 0)
+			(at 125.73 29.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3322,7 +3322,7 @@
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/mic2920.pdf"
-			(at 120.65 36.83 0)
+			(at 125.73 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3331,7 +3331,7 @@
 			)
 		)
 		(property "Description" "700mA Micropower Low drop-out regulator, Fixed Output 5.0V, SOT-223"
-			(at 120.65 35.56 0)
+			(at 125.73 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3631,7 +3631,7 @@
 	)
 	(symbol
 		(lib_id "MCU_Module:Arduino_Nano_Every")
-		(at 138.43 97.79 0)
+		(at 149.86 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3640,7 +3640,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ebdfa73-7841-4926-93ef-f37f55279777")
 		(property "Reference" "A1"
-			(at 140.5733 123.19 0)
+			(at 152.0033 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3649,7 +3649,7 @@
 			)
 		)
 		(property "Value" "Arduino_Nano_Every"
-			(at 140.5733 125.73 0)
+			(at 152.0033 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3658,7 +3658,7 @@
 			)
 		)
 		(property "Footprint" "Module:Arduino_Nano"
-			(at 138.43 97.79 0)
+			(at 149.86 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3668,7 +3668,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.arduino.cc/assets/NANOEveryV3.0_sch.pdf"
-			(at 138.43 97.79 0)
+			(at 149.86 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3677,7 +3677,7 @@
 			)
 		)
 		(property "Description" "Arduino Nano Every"
-			(at 138.43 97.79 0)
+			(at 149.86 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3786,7 +3786,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 120.65 50.8 0)
+		(at 125.73 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3795,7 +3795,7 @@
 		(fields_autoplaced yes)
 		(uuid "81ea96ad-698e-4a72-a7ba-fdcc9ff2a5e4")
 		(property "Reference" "#PWR05"
-			(at 120.65 57.15 0)
+			(at 125.73 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3804,7 +3804,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.65 55.88 0)
+			(at 125.73 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3812,7 +3812,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 50.8 0)
+			(at 125.73 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3821,7 +3821,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 50.8 0)
+			(at 125.73 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3830,7 +3830,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 120.65 50.8 0)
+			(at 125.73 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3852,7 +3852,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 133.35 30.48 180)
+		(at 144.78 30.48 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3861,7 +3861,7 @@
 		(fields_autoplaced yes)
 		(uuid "84ee7c39-1605-49a5-88a9-514f1703c14a")
 		(property "Reference" "C1"
-			(at 137.16 29.2099 0)
+			(at 148.59 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3870,7 +3870,7 @@
 			)
 		)
 		(property "Value" "10μF"
-			(at 137.16 31.7499 0)
+			(at 148.59 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3879,7 +3879,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 132.3848 26.67 0)
+			(at 143.8148 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3888,7 +3888,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 30.48 0)
+			(at 144.78 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3897,7 +3897,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, rated for 40v"
-			(at 133.35 30.48 0)
+			(at 144.78 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3988,7 +3988,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 133.35 25.4 180)
+		(at 144.78 25.4 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3997,7 +3997,7 @@
 		(fields_autoplaced yes)
 		(uuid "aaaf7304-0341-412d-949d-b276e5dd4708")
 		(property "Reference" "#PWR015"
-			(at 133.35 19.05 0)
+			(at 144.78 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4006,7 +4006,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 20.32 0)
+			(at 144.78 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4014,7 +4014,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 25.4 0)
+			(at 144.78 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4023,7 +4023,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 25.4 0)
+			(at 144.78 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4032,7 +4032,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 133.35 25.4 0)
+			(at 144.78 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4329,7 +4329,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 138.43 125.73 0)
+		(at 149.86 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4338,7 +4338,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1e865bb-ff53-49a7-bc36-a1b90a6077cb")
 		(property "Reference" "#PWR01"
-			(at 138.43 132.08 0)
+			(at 149.86 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4347,7 +4347,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 130.81 0)
+			(at 149.86 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4355,7 +4355,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 125.73 0)
+			(at 149.86 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4364,7 +4364,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 125.73 0)
+			(at 149.86 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4373,7 +4373,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 138.43 125.73 0)
+			(at 149.86 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
