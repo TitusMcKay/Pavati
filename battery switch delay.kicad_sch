@@ -2546,7 +2546,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 25.4) (xy 144.78 26.67)
+			(xy 162.56 21.59) (xy 162.56 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2893,6 +2893,16 @@
 			(type default)
 		)
 		(uuid "f716ceac-1164-45ad-9233-55dbc18da8d5")
+	)
+	(wire
+		(pts
+			(xy 162.56 26.67) (xy 144.78 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7700bdf-58c2-4f63-a455-98a36a37f5fd")
 	)
 	(symbol
 		(lib_id "power:+12V")
@@ -4079,7 +4089,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 144.78 25.4 180)
+		(at 162.56 21.59 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4088,7 +4098,7 @@
 		(fields_autoplaced yes)
 		(uuid "aaaf7304-0341-412d-949d-b276e5dd4708")
 		(property "Reference" "#PWR015"
-			(at 144.78 19.05 0)
+			(at 162.56 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4097,7 +4107,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 20.32 0)
+			(at 162.56 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4105,7 +4115,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 25.4 0)
+			(at 162.56 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4114,7 +4124,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 25.4 0)
+			(at 162.56 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4123,7 +4133,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 144.78 25.4 0)
+			(at 162.56 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
