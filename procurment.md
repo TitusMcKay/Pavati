@@ -26,8 +26,10 @@ D1
 
 ## Relay
 K2
- - Omron Electronics Inc-EMC Div G6E-134P-US DC12  # if searching on digikey it might show an option for power relays or signal relays, choose signal relays
- 
+ - CIT Relay and Switch 2449-J1071CS12VDC.36-ND
+ - Omron Electronics Inc-EMC Div G6E-134P-US DC12  #  dont use
+
+
 ## Terminal Block
 J1
  - Phoenix Contact 1935187
