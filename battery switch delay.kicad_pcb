@@ -4520,6 +4520,84 @@
 	(dimension
 		(type orthogonal)
 		(layer "B.SilkS")
+		(uuid "1d12395c-c6ab-4bb0-8b21-45956527ed49")
+		(pts
+			(xy 106.25 58.25) (xy 106.25 110.75)
+		)
+		(height 3.25)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "52.5"
+			(at 108.4 84.5 90)
+			(layer "B.SilkS")
+			(uuid "1d12395c-c6ab-4bb0-8b21-45956527ed49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "B.SilkS")
+		(uuid "24bb1a5e-ab43-46f9-94b2-7018d654100e")
+		(pts
+			(xy 106.25 110.75) (xy 142.75 110.75)
+		)
+		(height -3.75)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "36.5"
+			(at 124.5 105.9 0)
+			(layer "B.SilkS")
+			(uuid "24bb1a5e-ab43-46f9-94b2-7018d654100e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "B.SilkS")
 		(uuid "2c2b497a-2c18-46b4-9500-fdbe9df7bbd7")
 		(pts
 			(xy 142.75 70.75) (xy 142.75 110.75)
@@ -4558,90 +4636,12 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "B.SilkS")
-		(uuid "2dbf7fdc-fc7a-41f4-8141-54a48ec36e2b")
-		(pts
-			(xy 110.75 110.75) (xy 110.75 58.25)
-		)
-		(height 3.2)
-		(orientation 1)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 4)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "52.5"
-			(at 112.85 84.5 90)
-			(layer "B.SilkS")
-			(uuid "2dbf7fdc-fc7a-41f4-8141-54a48ec36e2b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-				(justify mirror)
-			)
-		)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "B.SilkS")
-		(uuid "daabdcab-8f9d-484a-9e92-ff7793265e82")
-		(pts
-			(xy 110.75 110.75) (xy 142.75 110.75)
-		)
-		(height -3.425)
-		(orientation 0)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 4)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "32"
-			(at 126.75 106.225 0)
-			(layer "B.SilkS")
-			(uuid "daabdcab-8f9d-484a-9e92-ff7793265e82")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-				(justify mirror)
-			)
-		)
-	)
-	(dimension
-		(type orthogonal)
 		(layer "Dwgs.User")
-		(uuid "8ab33501-610c-402a-b11f-0f45f59b67b8")
+		(uuid "be075162-d2a9-4738-98dc-34b652ff2f09")
 		(pts
-			(xy 110.75 110.75) (xy 142.75 110.75)
+			(xy 106.25 110.75) (xy 142.75 110.75)
 		)
-		(height 11.65)
+		(height 8.35)
 		(orientation 0)
 		(format
 			(prefix "")
@@ -4652,7 +4652,7 @@
 			(suppress_zeroes yes)
 		)
 		(style
-			(thickness 0.2)
+			(thickness 0.1)
 			(arrow_length 1.27)
 			(text_position_mode 0)
 			(arrow_direction outward)
@@ -4660,14 +4660,14 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "32"
-			(at 126.75 120.6 0)
+		(gr_text "36.5"
+			(at 124.5 117.95 0)
 			(layer "Dwgs.User")
-			(uuid "8ab33501-610c-402a-b11f-0f45f59b67b8")
+			(uuid "be075162-d2a9-4738-98dc-34b652ff2f09")
 			(effects
 				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
