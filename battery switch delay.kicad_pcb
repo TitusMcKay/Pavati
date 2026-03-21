@@ -178,7 +178,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d37a742b-18ef-483c-88c9-d5192af6c7e6")
+			(uuid "04c212fb-134b-4125-bd93-62de00ebe991")
 		)
 		(fp_line
 			(start -0.227064 0.735)
@@ -188,7 +188,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f25b5212-175f-4dbd-a234-86686373407b")
+			(uuid "946770e6-b75e-4d64-9c08-8332fd3dd856")
 		)
 		(fp_line
 			(start 1.85 -0.95)
@@ -198,7 +198,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "9e981666-4541-4920-9bd6-4e0b530c81c9")
+			(uuid "103bada5-fc1a-4d20-88c2-b17be268dd6d")
 		)
 		(fp_line
 			(start -1.85 -0.95)
@@ -208,7 +208,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "bb1d9d0d-cd96-4fc8-84dd-2da45a535a6d")
+			(uuid "537e87ad-693f-4834-9dcc-4c02753233b6")
 		)
 		(fp_line
 			(start 1.85 0.95)
@@ -218,7 +218,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "46ae568f-98b7-4f05-8e62-14e6e7398b37")
+			(uuid "794690c5-e2de-48f3-91a4-8f87e0ad38cc")
 		)
 		(fp_line
 			(start -1.85 0.95)
@@ -228,7 +228,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "f67190b8-1c1d-4239-841f-61abae3e0ab2")
+			(uuid "4897c133-ee33-42a5-8baf-d1ca05682518")
 		)
 		(fp_line
 			(start 1 -0.625)
@@ -238,7 +238,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "388b4f0a-b266-4a2c-94f1-388e8bcf2f91")
+			(uuid "ca364e7c-c577-42b4-8315-ebe8a2e6a26e")
 		)
 		(fp_line
 			(start -1 -0.625)
@@ -248,7 +248,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "327ac60a-a973-447f-be04-80caecaaa4d1")
+			(uuid "0b65d9ac-ce20-4b9c-bb65-631f5aa36ae5")
 		)
 		(fp_line
 			(start 1 0.625)
@@ -258,7 +258,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "66706d2e-95a9-48b0-8a51-1492c83cd131")
+			(uuid "426aaa27-b035-4d04-af45-20bf8f8efe0d")
 		)
 		(fp_line
 			(start -1 0.625)
@@ -268,7 +268,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "dec81003-46a7-4218-9fbc-5632b795a700")
+			(uuid "464edbd0-b711-4f95-ae9a-05ac4f3c1b2f")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -1100,7 +1100,7 @@
 		(descr "module CMS SOT223 4 pins")
 		(tags "CMS SOT")
 		(property "Reference" "U2"
-			(at 3.95 -6.63125 0)
+			(at -6.525 -0.025 0)
 			(layer "F.SilkS")
 			(uuid "fc71ae11-a2fd-4014-80f4-947916d7a5cf")
 			(effects
@@ -1365,7 +1365,7 @@
 		(descr "SMD capacitor, aluminum electrolytic, Panasonic A5 / Nichicon, 4.0x5.4mm")
 		(tags "capacitor electrolytic")
 		(property "Reference" "C1"
-			(at 0 -3.2 0)
+			(at -5.5 0 0)
 			(layer "F.SilkS")
 			(uuid "1e68b4e6-1947-4bd8-8f93-36dc93ab0f12")
 			(effects
@@ -2835,7 +2835,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D1"
-			(at 0 -2 90)
+			(at 0 -1.8625 90)
 			(layer "F.SilkS")
 			(uuid "a0e71d94-083c-492f-8e9e-049bb2b686a7")
 			(effects
@@ -3224,7 +3224,7 @@
 		(descr "FINDER 36.11, SPDT relay, 10A, https://cdn.findernet.com/app/uploads/S36EN.pdf")
 		(tags "spdt relay")
 		(property "Reference" "K1"
-			(at 6 -4.2 0)
+			(at 6 -4.6 0)
 			(layer "F.SilkS")
 			(uuid "4d2b9697-902f-4d88-b8d9-2b37e039b758")
 			(effects
@@ -3784,7 +3784,7 @@
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q1"
-			(at -3.325 0 90)
+			(at 2.275 1.4 90)
 			(layer "F.SilkS")
 			(uuid "51308133-9e14-4f6a-9558-d6b96e7755c3")
 			(effects
@@ -4454,7 +4454,7 @@
 		(uuid "d7fa0ab4-ddbb-4b1b-bdea-94b8e8256a07")
 	)
 	(gr_text "ctrl\ninput"
-		(at 126.7 67.3 90)
+		(at 127.7 67.3 90)
 		(layer "F.SilkS")
 		(uuid "09f1bbd0-a336-4a92-ab8e-b6420670741b")
 		(effects
@@ -4467,7 +4467,7 @@
 		)
 	)
 	(gr_text "+12v"
-		(at 141.8 69 90)
+		(at 142.3 68.8 90)
 		(layer "F.SilkS")
 		(uuid "315a1937-48bf-4894-a40c-7571871d0cf1")
 		(effects
@@ -4480,7 +4480,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 136.3 68.7 90)
+		(at 137.3 68.6 90)
 		(layer "F.SilkS")
 		(uuid "3cf1fb37-7d88-4139-9543-bc4e104d01e4")
 		(effects
@@ -4493,7 +4493,7 @@
 		)
 	)
 	(gr_text "to\nswitch"
-		(at 131.7 66.9 90)
+		(at 132.8 66.9 90)
 		(layer "F.SilkS")
 		(uuid "5e223a42-5e9e-4a42-8872-95d923f193b1")
 		(effects
