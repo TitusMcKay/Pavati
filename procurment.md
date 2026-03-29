@@ -7,6 +7,15 @@ new line
 
 ## Capacitors
 
+`
+`
+`
+some text pls copy github 😭
+`
+`
+`
+
+
 C1
   - ```KEMET 399-EXV106M025S9BAACT-ND```
   - Panasonic Electronic Components 10-EEE-FN1C100RCT-ND
