@@ -7,13 +7,7 @@ new line
 
 ## Capacitors
 
-`
-`
-`
-some text pls copy github 😭
-`
-`
-`
+```some text```
 
 
 C1
