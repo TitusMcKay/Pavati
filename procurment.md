@@ -12,21 +12,33 @@ C1
   KEMET 399-EXV106M025S9BAACT-ND
   ```
   ```
-  - Panasonic Electronic Components 10-EEE-FN1C100RCT-ND
+  Panasonic Electronic Components 10-EEE-FN1C100RCT-ND
   ```
-  - Panasonic Electronic Components 10-EEE-FN1E100RCT-ND
-
+  ```
+  Panasonic Electronic Components 10-EEE-FN1E100RCT-ND
+  ```
 C2
-  - Murata Electronics GRM21BR61H106KE43L
-  - Samsung Electro-Mechanics CL21A106KBYQNNE
-  - TDK Corporation C2012X5R1H106K125AC
+  ```
+  Murata Electronics GRM21BR61H106KE43L
+  ```
+  ```
+  Samsung Electro-Mechanics CL21A106KBYQNNE
+  ```
+  ```
+  TDK Corporation C2012X5R1H106K125AC
+  ```
   
 ## Diodes
 
 D1
-  - Diodes Incorporated MMSZ5231B-7-F
-  - Diodes Incorporated BZT52C4V7-13-F
-  - Panjit International Inc. BZT52-C5V1_R1_00001
+  ```
+  Diodes Incorporated MMSZ5231B-7-F
+  ```
+  Diodes Incorporated BZT52C4V7-13-F
+  ```
+  ```
+  Panjit International Inc. BZT52-C5V1_R1_00001
+  ```
 
 ## Relay
 K2
