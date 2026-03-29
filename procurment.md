@@ -8,7 +8,7 @@ new line
 ## Capacitors
 
 C1
-  - 
+  - some more text 
   ```
   KEMET 399-EXV106M025S9BAACT-ND
   ```
