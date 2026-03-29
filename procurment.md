@@ -53,13 +53,13 @@ K2
 ## Terminal Block
 J1
   ```
-  Phoenix Contact 1935187
+  Same Sky (Formerly CUI Devices) 102-6136-ND
   ```
   ```
-  Phoenix Contact 1935792
+  Adam Tech 2057-EBBA-04-C-SS-BU-ND
   ```
   ```
-  Same Sky (Formerly CUI Devices) TB0010-500-04GR
+  Würth Elektronik 732-10957-ND
   ```
  
 ## Transistor
