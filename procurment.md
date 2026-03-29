@@ -8,11 +8,12 @@ new line
 ## Capacitors
 
 C1
-  - some more text 
   ```
   KEMET 399-EXV106M025S9BAACT-ND
   ```
+
   - Panasonic Electronic Components 10-EEE-FN1C100RCT-ND
+  ```
   - Panasonic Electronic Components 10-EEE-FN1E100RCT-ND
 
 C2
