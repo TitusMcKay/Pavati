@@ -52,7 +52,7 @@ K2
 
 ## Terminal Block
 J1
-
+  ```
   Phoenix Contact 1935187
   ```
   ```
