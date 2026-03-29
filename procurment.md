@@ -7,7 +7,9 @@ new line
 
 ## Capacitors
 
-```some text```
+```
+some text
+```
 
 
 C1
