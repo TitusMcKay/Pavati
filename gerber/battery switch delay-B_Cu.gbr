@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,9.0.2+dfsg-1*%
-%TF.CreationDate,2026-03-20T13:21:01-07:00*%
+%TF.CreationDate,2026-03-29T21:49:31-07:00*%
 %TF.ProjectId,battery switch delay,62617474-6572-4792-9073-776974636820,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L2,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.2+dfsg-1) date 2026-03-20 13:21:01*
+G04 Created by KiCad (PCBNEW 9.0.2+dfsg-1) date 2026-03-29 21:49:31*
 %MOMM*%
 %LPD*%
 G01*
@@ -172,21 +172,21 @@ X106250000Y-58250000D03*
 D15*
 %TO.P,K1,11*%
 %TO.N,to switch*%
-X112700000Y-80300000D03*
+X113100000Y-80300000D03*
 %TO.P,K1,12*%
 %TO.N,ctrl*%
-X106700000Y-66100000D03*
+X107100000Y-66100000D03*
 %TO.P,K1,14*%
 %TO.N,Net-(Q1-C)*%
-X118700000Y-66100000D03*
+X119100000Y-66100000D03*
 D16*
 %TO.P,K1,A1*%
 %TO.N,+12V*%
-X118700000Y-78300000D03*
+X119100000Y-78300000D03*
 D15*
 %TO.P,K1,A2*%
 %TO.N,GND*%
-X106700000Y-78300000D03*
+X107100000Y-78300000D03*
 %TD*%
 D12*
 %TO.P,REF\u002A\u002A,1*%
