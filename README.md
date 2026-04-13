@@ -19,7 +19,8 @@ To view in the web go [here](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com
 To view on your machine clone the repo and open the project in KiCad
 
 ## 3D
-you can view the case [here](https://3dviewer.net/#model=https://raw.githubusercontent.com/TitusMcKay/Pavati/refs/heads/master/3d/case-Body.step)
-if you want the best viewing experience open the [design files](./3d) in [FreeCAD](https://github.com/freecad/freecad) or open .step files in your 3d printer slicer or CAD software of choice
+You can view the case [here](https://3dviewer.net/#model=https://raw.githubusercontent.com/TitusMcKay/Pavati/refs/heads/master/3d/case-Body.step).
+
+If you want the best viewing experience open the [design files](./3d) in [FreeCAD](https://github.com/freecad/freecad), or open .step files in your 3d printer slicer or CAD software of choice
 
 
