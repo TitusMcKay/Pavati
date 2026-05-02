@@ -8,6 +8,7 @@ bool timing = false;
 void setup () {
   pinMode(fobPin, INPUT);
   pinMode(switchPin, OUTPUT);
+  digitalWrite(switchPin, LOW);
 }
 
 void loop() {
@@ -20,7 +21,7 @@ void loop() {
       digitalWrite(switchPin, HIGH)
     }
   else {
-    do nothing
+    timing = false;
   }
 }
 /*
