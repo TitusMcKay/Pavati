@@ -17,11 +17,7 @@ void loop() {
       startOfPulse = millis();
       timing=true;
     }
-    /*
-    if (mills() - startOfPulse < 2000 && digitalRead(fobPin) == LOW){
-      timing = false;
-    }
-    */
+
     if (millis() - startOfPulse > 2000) { // see if you have waited long enough
       digitalWrite(switchPin, HIGH);
       delay(2250); // wait two an a quarter seconds
@@ -29,6 +25,7 @@ void loop() {
   } else {
     timing = false;
     digitalWrite(switchPin, LOW);
+    startOfPulse = millis(); // if ever touches low "timer" resets
   }
 }
 /*
