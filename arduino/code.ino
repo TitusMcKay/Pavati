@@ -1,6 +1,6 @@
-#main pin in is d2
-const int fobPin = 2
-const int switchPin = 7
+//main pin in is d2
+const int fobPin = 2;
+const int switchPin = 7;
 
 unsigned long startOfPulse=0;
 bool timing = false;
@@ -14,14 +14,16 @@ void setup () {
 void loop() {
   if (digitalRead(fobPin) == HIGH){
     if (!timing) {
-      startOfPulse = mills();
+      startOfPulse = millis();
       timing=true;
     }
-    if (mills()- startOfPulse() > 2000) {
-      digitalWrite(switchPin, HIGH)
+    if (millis()- startOfPulse > 2000) { // see if you have waited long enough
+      digitalWrite(switchPin, HIGH);
+      delay(2250); // wait two an a quarter seconds
     }
-  else {
+  } else {
     timing = false;
+    digitalWrite(switchPin, LOW);
   }
 }
 /*
