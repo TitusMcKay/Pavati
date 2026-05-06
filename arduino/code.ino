@@ -13,11 +13,16 @@ void setup () {
 
 void loop() {
   if (digitalRead(fobPin) == HIGH){
-    if (!timing) {
+    if (!timing) { // locks in when pulse started
       startOfPulse = millis();
       timing=true;
     }
-    if (millis()- startOfPulse > 2000) { // see if you have waited long enough
+    /*
+    if (mills() - startOfPulse < 2000 && digitalRead(fobPin) == LOW){
+      timing = false;
+    }
+    */
+    if (millis() - startOfPulse > 2000) { // see if you have waited long enough
       digitalWrite(switchPin, HIGH);
       delay(2250); // wait two an a quarter seconds
     }
