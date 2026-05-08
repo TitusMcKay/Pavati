@@ -14,12 +14,16 @@ void setup () {
 
 void loop() {
   Serial.print("\r fobPin bool value:");
+  Serial.print( digitalRead(fobPin) );
+  Serial.print(" switchPin bool value:");
   Serial.print( digitalRead(switchPin) );
+
+
+
   if (digitalRead(fobPin) == HIGH){
     if (!timing) { // locks in when pulse started
       startOfPulse = millis();
       timing=true;
-      startOfPulse = millis();
     }
 
     if (millis() - startOfPulse > 2000) { // see if you have waited long enough
