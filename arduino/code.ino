@@ -9,13 +9,17 @@ void setup () {
   pinMode(fobPin, INPUT);
   pinMode(switchPin, OUTPUT);
   digitalWrite(switchPin, LOW);
+  Serial.begin(9600);
 }
 
 void loop() {
+  Serial.print("\r fobPin bool value:");
+  Serial.print( digitalRead(switchPin) );
   if (digitalRead(fobPin) == HIGH){
     if (!timing) { // locks in when pulse started
       startOfPulse = millis();
       timing=true;
+      startOfPulse = millis();
     }
 
     if (millis() - startOfPulse > 2000) { // see if you have waited long enough
@@ -25,35 +29,7 @@ void loop() {
   } else {
     timing = false;
     digitalWrite(switchPin, LOW);
-    startOfPulse = millis(); // if ever touches low "timer" resets
+    //startOfPulse = millis(); // if ever touches low "timer" resets
   }
 }
-/*
-this is code gened by a clanker 🤮, so im hand wrighting the code above 😃👍
-const int inPin  = 2;   // input
-const int outPin = 3;   // output
-
-unsigned long start = 0;
-bool timing = false;
-
-void setup() {
-  pinMode(inPin,  INPUT);
-  pinMode(outPin, OUTPUT);
-}
-
-void loop() {
-  if (digitalRead(inPin) == HIGH) {
-    if (!timing) {
-      start = millis();
-      timing = true;
-    }
-    if (millis() - start > 2000) {
-      digitalWrite(outPin, HIGH);   // set pin 3 high
-    }
-  } else {
-    timing = false;
-    digitalWrite(outPin, LOW);      // optional: reset output when input is low
-  }
-}
-*/
 
