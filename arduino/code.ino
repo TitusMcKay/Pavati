@@ -17,7 +17,8 @@ void loop() {
   Serial.print( digitalRead(fobPin) );
   Serial.print(" switchPin bool value:");
   Serial.print( digitalRead(switchPin) );
-
+  Serial.print("  time after pulse started:");
+  //Serial.print(millis() - startOfPulse);
 
 
   if (digitalRead(fobPin) == HIGH){
@@ -33,7 +34,8 @@ void loop() {
   } else {
     timing = false;
     digitalWrite(switchPin, LOW);
-    //startOfPulse = millis(); // if ever touches low "timer" resets
+    startOfPulse = millis(); // if ever touches low "timer" resets
+    Serial.print(millis() - startOfPulse);
   }
 }
 
