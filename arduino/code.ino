@@ -28,12 +28,12 @@ void loop() {
     }
 
     if (millis() - startOfPulse > 2000) { // see if you have waited long enough
-      digitalWrite(switchPin, HIGH);
+      digitalWrite(switchPin, LOW);
       delay(2250); // wait two an a quarter seconds
     }
   } else {
     timing = false;
-    digitalWrite(switchPin, LOW);
+    digitalWrite(switchPin, HIGH);
     startOfPulse = millis(); // if ever touches low "timer" resets
     Serial.print(millis() - startOfPulse);
   }
