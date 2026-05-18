@@ -1,9 +1,8 @@
 # Instructions
 Use this list to add parts to an order from a market place like DigiKey or Mouser.
 
-new line
 
-# Components
+# Electronic Components
 
 ## Capacitors
 
@@ -95,3 +94,13 @@ U2
   Microchip Technology MIC2920A-12WS-CT-ND
   ```
 <!--  - Texas Instruments 296-46112-1-ND -->
+
+
+
+# Mechicanical parts
+
+## O-Ring
+
+  ```
+  Dash 150 Durometer 50A Buna-N Rubber
+  ``` 
