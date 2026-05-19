@@ -97,7 +97,7 @@ U2
 
 
 
-# Mechicanical parts
+# Mechanical parts
 
 ## O-Ring
 
@@ -106,11 +106,11 @@ U2
   ``` 
 ## Screws
 
-These are McMASTER-CARR part numbers
+  McMaster part number for a 1/2" No. 4 stainless steel plastic tapping screw:
   ```
   96001A210 
   ```
+  McMaster part number for a 6mm M2 steel plastic tapping screw:
   ```
   96817A209
   ```
-words ```code```
