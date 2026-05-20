@@ -101,9 +101,10 @@ U2
 
 ## O-Ring
 
-  ```
-  Dash 150 Durometer 50A Buna-N Rubber
+  McMaster part for 50A Durometer Dash 150 Buna-N Rubber O-Ring
   ``` 
+  2418T357
+  ```
 ## Screws
 
   McMaster part number for a 1/2" No. 4 stainless steel plastic tapping screw:
