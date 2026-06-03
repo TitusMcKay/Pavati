@@ -101,7 +101,7 @@ U2
 
 ## O-Ring
 
-  McMaster part for 50A Durometer Dash 150 Buna-N Rubber O-Ring
+  McMaster part for 50A Durometer Dash 150 Buna-N Rubber O-Ring:
   ``` 
   2418T357
   ```
