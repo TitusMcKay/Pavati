@@ -1,5 +1,5 @@
 # Instructions
-Use this list to add parts to an order from a market place like DigiKey or Mouser.
+Use this list to add parts to an order from DigiKey or McMaster.
 
 
 # Electronic Components
@@ -94,8 +94,17 @@ U2
   Microchip Technology MIC2920A-12WS-CT-ND
   ```
 <!--  - Texas Instruments 296-46112-1-ND -->
+## Header
 
-
+  .1" header for mounting arduino computer
+  ```
+  Same Sky (Formerly CUI Devices) SSK02-FPH-254-A15
+  ```
+## Arduio
+A1
+  ```
+  DFRobot 1738-1026-ND
+  ```
 
 # Mechanical parts
 
