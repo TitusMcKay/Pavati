@@ -28,7 +28,8 @@ void loop() {
     }
 
     if (millis() - startOfPulse > 2000) { // see if you have waited long enough
-      digitalWrite(switchPin, LOW);
+      delay(6000); // time before signal is sent out to the switch
+      digitalWrite(switchPin, LOW); // 12v is now common with line going to switch
       delay(2250); // wait two an a quarter seconds
     }
   } else {
