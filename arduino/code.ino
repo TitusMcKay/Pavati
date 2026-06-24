@@ -12,7 +12,6 @@ void setup () {
   pinMode(switchPin, OUTPUT);
   digitalWrite(switchPin, HIGH);
   Serial.begin(9600);
-  delay(2000);
 }
 
 void loop() {
