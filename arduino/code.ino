@@ -3,12 +3,14 @@ const int fobPin = 2;
 const int switchPin = 7;
 
 unsigned long startOfPulse=0;
+unsigned long startOfDelay=0;
 bool timing = false;
+bool offPulse = false;
 
 void setup () {
   pinMode(fobPin, INPUT);
   pinMode(switchPin, OUTPUT);
-  digitalWrite(switchPin, LOW);
+  digitalWrite(switchPin, HIGH);
   Serial.begin(9600);
 }
 
@@ -27,16 +29,26 @@ void loop() {
       timing=true;
     }
 
+    if (millis() - startOfPulse < 2000) {
+      offPulse = false;
+    }
     if (millis() - startOfPulse > 2000) { // see if you have waited long enough
-      delay(6000); // time before signal is sent out to the switch
-      digitalWrite(switchPin, LOW); // 12v is now common with line going to switch
-      delay(2250); // wait two an a quarter seconds
+      startOfDelay = millis();
+      offPulse = true;
+      //delay(6000); // time before signal is sent out to the switch
+      //digitalWrite(switchPin, LOW); // 12v is now common with line going to switch beause of transistor
+      //delay(2250); // wait two an a quarter seconds
     }
   } else {
     timing = false;
-    digitalWrite(switchPin, HIGH);
+    //digitalWrite(switchPin, HIGH);
     startOfPulse = millis(); // if ever touches low "timer" resets
     Serial.print(millis() - startOfPulse);
+  }
+  if (offPulse && (millis() - startOfDelay > 6000)) {
+    digitalWrite(switchPin, LOW);
+  } else {
+    digitalWrite(switchPin, HIGH);
   }
 }
 
