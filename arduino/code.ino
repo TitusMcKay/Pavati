@@ -29,7 +29,7 @@ void loop() {
       timing=true;
     }
 
-    if (millis() - startOfPulse < 2000) {
+    if ((millis() - startOfPulse < 2000) && (millis() - startOfPulse > 250)) {
       offPulse = false;
     }
     if (millis() - startOfPulse > 2000) { // see if you have waited long enough
@@ -45,7 +45,7 @@ void loop() {
     startOfPulse = millis(); // if ever touches low "timer" resets
     Serial.print(millis() - startOfPulse);
   }
-  if (offPulse && (millis() - startOfDelay > 6000)) {
+  if (offPulse && (millis() - startOfDelay > 8000)) {
     digitalWrite(switchPin, LOW);
   } else {
     digitalWrite(switchPin, HIGH);
